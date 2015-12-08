@@ -10,6 +10,11 @@ namespace Insight.Database.demo
     {
         static void Main(string[] args)
         {
+            var test = new PersonTest();
+            test.Run();
+
+            Console.WriteLine("Press any key to continue.");
+            Console.ReadKey();
         }
     }
 }
