@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// This is a demo for https://github.com/jonwagner/Insight.Database
+// It avoids the need for DataReaders and other mapping code.
+// It uses stored procedures.
+
+using System;
 
 namespace Insight.Database.demo
 {

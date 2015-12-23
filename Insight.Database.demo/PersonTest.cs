@@ -18,12 +18,12 @@ namespace Insight.Database.demo
 
             var dude = new Person()
             {
-                BusinessEntityID = 2001,
+                //BusinessEntityID = 2001,
                 FirstName = "George",
                 LastName = "Washington",
-                PersonType = "EN"
+                PersonType = "EM"
             };
-            conn.Execute("AddPerson", dude);
+            conn.Execute("Person.PersonSave", dude);
         }
     }
 }
